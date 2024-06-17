@@ -1,0 +1,58 @@
+:root {
+
+    --primary-color: blue;
+    --secondary-color: aliceblue;
+    --box-shadow: 5px 10px 30px rgba(0,0,0,0.2);
+    
+}
+
+body {
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+   
+    padding: 20px 10px 10px 10px;
+}
+
+.links {
+    border: 1px solid blue;
+    padding: 10px 10px;
+    margin: 20px 600px auto;
+    background-color: aquamarine;
+    box-shadow: var(--box-shadow);
+    
+}
+.about-me {
+    color: aliceblue;
+    font-size: larger;
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: var(--box-shadow);
+    text-decoration: none;
+
+}
+.about-me :hover {
+ background-color:var(--secondary-color);
+
+}
+.contact-me {
+    color: var(--primary-color);
+    font-size: larger;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: var(--box-shadow);
+
+}
+.contact-me :hover {
+
+    background-color: var(--primary-color);
+}
+a {
+    text-decoration: none;
+}
+a :hover {
+    cursor: pointer;
+}
