@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        :root {
+            --primary-color: crimson;
+            --box-shadow: 5px 10px 30px rgba(0,0,0,0.2);
+            
+        }
         p {
 
             max-width: 600px;
         }
         h3 {
             max-width: 400px;
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+            box-shadow: var(--box-shadow);
         }
 
         a:hover {
@@ -18,6 +26,13 @@
         }
         a:visited {
             color:crimson
+        }
+        .email-link:hover {
+            color: blueviolet;
+
+        }
+        .email-link:visited {
+            color: green;
         }
     </style>
 </head>
@@ -46,10 +61,10 @@ Omsorg handler om kunnskap, om pasient, om hvordan tjenesten gjør sin jobb og h
         </p>
         <img src="oda24.png" width="500px" alt="oda-celebration" />
         <p id="contact">
-            please contact me at <a href="mailto:kristil@jodacare.com">kristil@jodacare.com</a> or at my office in Asker
+            please contact me at <a href="mailto:kristil@jodacare.com" class="email-link">kristil@jodacare.com</a> or at my office in Asker
         </p>
         <br />
-        <a href="https://Jodatech.no">Jodatech homepage</a>
+        <a href="https://Jodatech.no" target="_blank">Jodatech homepage</a>
     </p>
 </body>
 </html>
