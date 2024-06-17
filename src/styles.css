@@ -1,6 +1,8 @@
 :root {
 
     --primary-color:#834ed2;
+    --secondery-color: grey;
+
     --h1-color:#8c2e50;
     --box-shadow: 5px 10px 30px rgba(0,0,0,0.2);
     
@@ -30,8 +32,8 @@ body {
   }
   
 
-  h2, h3 {
-    color: #231d3c;
+  h3 {
+    color: var(--secondery-color)
   }
 
 
