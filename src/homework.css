@@ -1,58 +1,115 @@
 :root {
 
-    --primary-color: blue;
+    --primary-color: #6c63ff;
     --secondary-color: aliceblue;
-    --box-shadow: 5px 10px 30px rgba(0,0,0,0.2);
+    --box-shadow: 5px 10px 30px rgba(0,0,0,0.3);
+  
     
 }
 
 body {
-    text-align: center;
+   text-align: center;
+    margin: 60px auto;
+    max-width: 800px;
+}
+h1 {
+    font-size: 96px;
+}
+h2 {
+    font-size: 48px;
+
+}
+h3 {
+
+    font-size: 24px;
+    opacity: 0.7;
+}
+
+p {
+    background: #f5f2fe;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.about-paragraphs {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 30 px 0;
+}
+.about-paragraphs p {
+    margin: 10px;
+
 }
 .buttons {
     display: flex;
     justify-content: center;
-   
-    padding: 20px 10px 10px 10px;
-}
-
-.links {
-    border: 1px solid blue;
-    padding: 10px 10px;
-    margin: 20px 600px auto;
-    background-color: aquamarine;
-    box-shadow: var(--box-shadow);
+    margin-top: 40px;
     
 }
-.about-me {
+
+.buttons a {
+    margin: 20px 10px;
+    margin-top: 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 20px 15px;
+}
+
+
+.contact-me {
     color: aliceblue;
     font-size: larger;
-    background-color: var(--primary-color);
-    padding: 20px;
-    border-radius: 4px;
+    background: var(--primary-color);
     box-shadow: var(--box-shadow);
-    text-decoration: none;
+   
 
 }
 .about-me :hover {
- background:var(--secondary-color);
+ background: none;
 
 }
-.contact-me {
-    color: var(--primary-color);
+.about-me {
+    background: var(--secondary-color);
     font-size: larger;
-    padding: 20px;
-    border-radius: 4px;
-    box-shadow: var(--box-shadow);
+  
+    border: 1px solid var(--primary-color);
+   
+   
 
 }
 .contact-me :hover {
 
     background: var(--primary-color);
 }
-a {
-    text-decoration: none;
-}
+
 a :hover {
     cursor: pointer;
+}
+
+.email-link {
+    font-size: 28px;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+.homepage-link {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+}
+
+.links {
+    border: 1px solid blue;
+    padding: 10px 10px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: aquamarine;
+    box-shadow: var(--box-shadow);
+    
 }
